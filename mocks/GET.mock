@@ -1,0 +1,17 @@
+[
+  {
+  "serverPort": 4500,
+  "logLevel": "INFO",
+  
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/users"
+    },
+    "httpResponse": {
+      "statusCode": "200",
+      "body": "[{\"id\": 1, \"name\": \"John\"}, {\"id\": 2, \"name\": \"Jane\"}]"
+    }
+  }
+]
